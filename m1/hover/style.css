@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+  background: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 400px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  transition: 0.3s;
+}
+
+.box-01 {
+  background: #E04F0E;
+}
+
+.box-02 {
+  background: #AFD15E;
+}
+
+.box-03 {
+  background: #75ABCE;
+}
+
+.box-04 {
+  background: #F6DD65;
+}
+
+/* hover */
+.box-01:hover,
+.box-02:hover,
+.box-03:hover,
+.box-04:hover {
+  transform: scale(1.5);
+}
