@@ -1,3 +1,8 @@
+/* Utilidades */
 @import url(../css/global/global.css);
 @import url(../css/utilidades/cores.css);
 @import url(../css/utilidades/tipografia.css);
+@import url(../css/componentes/componentes.css);
+
+/* Home */
+@import url(../css/home/home.css);
