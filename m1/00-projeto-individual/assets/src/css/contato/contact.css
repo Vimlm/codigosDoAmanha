@@ -6,3 +6,39 @@
 .background-dir-contact {
   background: var(--cor-p3);
 }
+
+/* Contate-me */
+.contateme {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+.contateme-img {
+  position: absolute;
+  width: 30%;
+  top: 80px;
+  left: 130px;
+}
+.contateme span {
+  margin-top: 200px;
+}
+
+.contact-redes {
+  display: flex;
+  z-index: 2;
+  gap: 100px;
+  margin-bottom: 40px;
+  overflow-y: hidden;
+}
+
+.contact-redes a {
+  transition: ease-in-out .3s;
+}
+
+.contact-redes a:hover {
+  transform: scale(1.2);
+}

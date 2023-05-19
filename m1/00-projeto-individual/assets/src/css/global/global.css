@@ -31,4 +31,7 @@ img {
   display: flex;
   justify-content: center;
   height: 947px;
+  position: relative;
+  z-index: 0;
+  overflow-y: hidden;
 }
