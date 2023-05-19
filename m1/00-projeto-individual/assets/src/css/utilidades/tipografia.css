@@ -1,0 +1,16 @@
+/* verificar altura de linha */
+.font-t {
+  font: 400 7.5rem/1.35 'Poiret One', cursive;
+}
+.font-p {
+  font: 300 2.25rem/1.2 'Inter', sans-serif;
+}
+.font-ph {
+  font: 200 1.5rem/1.2 'Inter', sans-serif;
+}
+.font-f {
+  font: 400 1rem/1.2 'Montserrat Alternates', sans-serif;
+}
+.font-b {
+  font: 500 2.25rem/1.2 'Montserrat Alternates', sans-serif;
+}
