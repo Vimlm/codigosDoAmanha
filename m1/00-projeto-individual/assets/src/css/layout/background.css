@@ -1,0 +1,15 @@
+.background {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+}
+
+.background-esq {
+  width: 50vw;
+  height: calc(100vh + 1px);
+}
+
+.background-dir {
+  width: 50vw;
+  height: calc(100vh + 1px);
+}

@@ -4,6 +4,7 @@
 @import url(../css/utilidades/tipografia.css);
 @import url(../css/componentes/componentes.css);
 @import url(../css/layout/paginas.css);
+@import url(../css/layout/background.css);
 
 /* Home */
 @import url(../css/home/home.css);
@@ -13,3 +14,6 @@
 
 /* Hobbies */
 @import url(../css/hobbies/hobbies.css);
+
+/* Contact */
+@import url(../css/contato/contact.css);

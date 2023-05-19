@@ -10,3 +10,10 @@
   background: var(--cor-p3);
   border-radius: 0 120px 0 120px;
 }
+
+/* Flower */
+.hobbies-flower {
+  position: absolute;
+  top: 120rem;
+  right: 20px;
+}

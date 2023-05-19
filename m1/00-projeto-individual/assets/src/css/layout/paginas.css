@@ -48,8 +48,17 @@
 .bies {
   margin-right: 40px;
   align-self: end;
+  /* overflow-y: hidden; */
 }
 
 span {
   text-transform: uppercase;
+}
+
+/* Layout Top e Bot flowers */
+.top,
+.bot {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

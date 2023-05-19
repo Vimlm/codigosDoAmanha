@@ -12,3 +12,11 @@
   background: var(--cor-s3);
   border-radius: 120px 0 120px 0;
 }
+
+.about-top img {
+  margin-right: 80px;
+}
+
+.about-bot img {
+  margin-left: 10px;
+}

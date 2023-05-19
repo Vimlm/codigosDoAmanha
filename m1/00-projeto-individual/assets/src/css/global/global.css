@@ -25,3 +25,10 @@ img {
   height: auto;
   display: block;
 }
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  height: 947px;
+}

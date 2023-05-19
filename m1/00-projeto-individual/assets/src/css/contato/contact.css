@@ -1,0 +1,8 @@
+/* Background Color */
+.background-esq-contact {
+  background: var(--cor-s3);
+}
+
+.background-dir-contact {
+  background: var(--cor-p3);
+}

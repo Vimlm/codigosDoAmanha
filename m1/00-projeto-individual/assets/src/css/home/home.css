@@ -1,36 +1,20 @@
-/* Container */
-.container {
-  display: flex;
-  justify-content: center;
-  height: 946px;
+/* Background Color */
+.background-esq-home {
+  background: var(--cor-p3);
+}
+
+.background-dir-home {
+  background: var(--cor-s3);
 }
 
 /* Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
-  grid-template-rows: auto auto 1fr;
-  width: 1200px;
+  grid-template-rows: auto repeat(4, 1fr);
+  width: 87.5rem;
   justify-content: center;
   height: auto;
-}
-
-.background {
-  display: flex;
-  position: absolute;
-  z-index: -1;
-}
-
-.background-esq {
-  width: 50vw;
-  height: 100vh;
-  background: var(--cor-p3);
-}
-
-.background-dir {
-  width: 50vw;
-  height: 100vh;
-  background: var(--cor-s3);
 }
 
 /* Header */
@@ -45,9 +29,11 @@
 
 /* Flower Top */
 .flower-tr {
-  width: 40%;
-  grid-column: 11 / -1;
-  grid-row: 2;
+  width: 50%;
+  grid-column: 10 / 15;
+  grid-row: 2 / 5;
+  justify-self: end;
+  margin-right: 80px;
 }
 
 /* Flowers Bottom */
