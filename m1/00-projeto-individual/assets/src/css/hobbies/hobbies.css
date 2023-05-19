@@ -1,0 +1,12 @@
+.backgroud-hobbies {
+  background: var(--cor-p3);
+}
+
+.sub-bg-hobbies {
+  background: var(--cor-s3);
+}
+
+.sub-bg-s-hobbies {
+  background: var(--cor-p3);
+  border-radius: 0 120px 0 120px;
+}

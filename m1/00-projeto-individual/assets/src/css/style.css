@@ -3,6 +3,13 @@
 @import url(../css/utilidades/cores.css);
 @import url(../css/utilidades/tipografia.css);
 @import url(../css/componentes/componentes.css);
+@import url(../css/layout/paginas.css);
 
 /* Home */
 @import url(../css/home/home.css);
+
+/* About */
+@import url(../css/sobre/about.css);
+
+/* Hobbies */
+@import url(../css/hobbies/hobbies.css);

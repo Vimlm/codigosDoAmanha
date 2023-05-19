@@ -2,7 +2,7 @@
 .container {
   display: flex;
   justify-content: center;
-  height: 945px;
+  height: 946px;
 }
 
 /* Grid */
@@ -23,13 +23,13 @@
 
 .background-esq {
   width: 50vw;
-  height: calc(100vh - 1px);
+  height: 100vh;
   background: var(--cor-p3);
 }
 
 .background-dir {
   width: 50vw;
-  height: calc(100vh - 1px);
+  height: 100vh;
   background: var(--cor-s3);
 }
 

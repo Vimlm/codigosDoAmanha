@@ -1,0 +1,14 @@
+/* Background & Box Layout */
+.backgroud-about {
+  background: var(--cor-s3);
+  position: relative;
+}
+
+.sub-bg-about {
+  background: var(--cor-p3);
+}
+
+.sub-bg-s-about {
+  background: var(--cor-s3);
+  border-radius: 120px 0 120px 0;
+}

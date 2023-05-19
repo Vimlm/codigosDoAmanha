@@ -1,0 +1,55 @@
+/* Background Layout*/
+.background-info{
+  display: flex;
+  align-items: center;
+}
+
+.sub-bg {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 540px;
+  overflow-y: hidden;
+}
+
+.sub-bg-s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 98%;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+
+.about-p {
+  margin: 120px;
+  text-align: center;
+  font-size: 1.5rem;
+  overflow-y: hidden;
+}
+
+/* Layout Páginas About e Hobbies */
+.backgroud-about,
+.backgroud-hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quem,
+.hob {
+  margin-left: 40px;
+  align-self: start;
+}
+
+.sou,
+.bies {
+  margin-right: 40px;
+  align-self: end;
+}
+
+span {
+  text-transform: uppercase;
+}
