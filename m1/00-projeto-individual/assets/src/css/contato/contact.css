@@ -42,3 +42,79 @@
 .contact-redes a:hover {
   transform: scale(1.2);
 }
+
+/* Formulario */
+form {
+  width: 80%;
+}
+.conteudo-lado-dir {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.form-bg {
+  width: 90%;
+  height: 65%;
+  background: var(--cor-s3);
+  border-radius: 5rem 0 5rem 0;
+}
+
+form,
+button,
+span,
+a {
+  overflow-y: hidden;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.form-name,
+.form-email,
+.form-message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.form-message {
+  margin-top: 40px;
+}
+
+.form-message textarea {
+  padding-top: 4px;
+  padding-left: 4px;
+  background: var(--cor-p3);
+  border-radius: 0 5rem 0 5rem;
+  margin-top: 20px;
+  max-width: 100ch;
+}
+
+.button-form {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  align-self: end;
+  margin-right: 70px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.button-form:hover {
+  background: var(--cor-p4);
+  color: var(--wb-01);
+}
+
+.formulario-frase {
+  max-width: 65ch;
+
+}

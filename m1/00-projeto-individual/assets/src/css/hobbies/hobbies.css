@@ -11,6 +11,15 @@
   border-radius: 0 120px 0 120px;
 }
 
+.menu-corpo-w {
+  margin-bottom: 60px;
+}
+
+.button-cpn-w {
+  background: var(--cor-s3);
+  color: var(--cor-p3);
+}
+
 /* Flower */
 .hobbies-flower {
   position: absolute;

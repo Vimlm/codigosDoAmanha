@@ -7,3 +7,39 @@
   border-radius: 20px 0 20px 0;
   box-shadow: 2px 2px 4px var(--wb-12);
 }
+
+.button-cpn {
+  background: var(--cor-p3);
+  padding: 8px 16px;
+  border-radius: 20px 0 20px 0;
+  text-align: center;
+  box-shadow: 2px 2px 4px var(--wb-12);
+}
+
+.menu-corpo {
+  display: flex;
+  font-size: 32px;
+  gap: 20px;
+}
+
+input {
+  color: var(--cor-p3);
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--cor-p3);
+  padding: 8px 16px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
