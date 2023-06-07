@@ -1,0 +1,53 @@
+validar um cpf
+  entrada de dados string com 11 digitos
+  11 dígitos
+  e um hífen
+  ponto
+
+INICIO
+  receber o cpf
+  se o cpf tiver 11 digitos
+    se o cpf nao tiver letras
+      se o cpf tiver um hifem
+        se o cpf tiver pontos
+          se o cpf nao tiver caracteres especiais
+          cpf válido
+          senao
+          cpf inválido
+        senao
+          cpf inválido
+      senao
+        cpf inválido
+    senao
+      cpf inválido
+  senao
+    cpf inválido
+FIM
+
+validar um email
+tem que um @
+não ter espaço
+ele tem que ter .
+ele tem que ter letras ou numeros
+ele tem que dominio
+
+INICIO
+  receber o email
+  se o email tiver letras
+    se o email tiver numero
+      se o email tiver @
+        se o email não tiver espaço
+          se o email tiver pontos
+            se o email tiver dominio
+              se o email nao tiver caracteres especiais
+              email válido
+          senao
+            email invalido
+        senao
+          email invalido
+      senao
+        email invalido
+    senao
+      email invalido
+  senao
+FIM
