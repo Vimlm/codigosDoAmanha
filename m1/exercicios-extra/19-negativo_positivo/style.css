@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 50px;
+  background: #000;
+  color: #fff;
+}
+
+li::marker {
+  content: '• ';
+}
