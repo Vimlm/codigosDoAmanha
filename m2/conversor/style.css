@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: monospace;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.formulario form div {
+  margin-bottom: 20px;
+}
