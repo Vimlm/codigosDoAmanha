@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+#container {
+  border: 2px solid #fff;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  color: #000;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.azul {
+  background: blue;
+}
+
+.verde {
+  background: greenyellow;
+}
+
+.vermelho {
+  background: tomato;
+}
