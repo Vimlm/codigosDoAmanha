@@ -4,48 +4,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="src/css/style.css">
+  <script src="src/scripts/script.js" defer></script>
   <title>Conversor</title>
 </head>
 
 <body>
   <section class="container">
-    <div class="formulario">
+    <div class="form">
+      <h1>Conversor de unidades</h1>
       <form action="">
-        <div class="categoria">
+        <div class="category">
           <label for="">Categoria</label>
-          <select id="categoria">
+          <select id="category">
             <option value="">Escolha uma opção</option>
-            <option value="comprimento">Comprimento</option>
-            <option value="peso">Peso</option>
-            <option value="temperatura">Temperatura</option>
+            <option value="length">Comprimento</option>
+            <option value="weight">Peso</option>
+            <option value="temperature">Temperatura</option>
           </select>
         </div>
-
+        
+        <label for="entry">Entrada</label>
         <div>
-          <label for="">Entrada</label>
-          <select id="unidade-entrada">
+          <select id="entry">
             <option value="">---</option>
           </select>
         </div>
 
+        <label for="exit">Saída</label>
         <div>
-          <label for="">Saída</label>
-          <select id="unidade-saida">
+          <select id="exit">
             <option value="">---</option>
           </select>
         </div>
 
         <div class="valor">
-          <label for="">Digite o valor</label>
-          <input type="text">
+          <label for="valueInput">Digite o valor</label>
+          <input value="" type="text" id="valueInput" required>
         </div>
+
+        <label for="result">Resultado</label>
+        <div class="result">
+          <p></p>
+        </div>
+        <button id="convert" class="button" type="submit">Converter</button>
     </div>
-    <button type="submit">Converter</button>
-
-
-
     </form>
   </section>
 </body>

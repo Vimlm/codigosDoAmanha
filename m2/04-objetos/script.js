@@ -1,3 +1,15 @@
+
+
+const carro = {
+  marcar: 'honda',
+  modelo: 'civic',
+  ano: 2022,
+  pneu: {
+    aro: 22,
+    modelo: 'michelin',
+  }
+}
+
 const cachorros = [];
 
 function criarCachorro() {
@@ -18,13 +30,11 @@ function criarCachorro() {
   cachorros.push(cachorro);
 }
 //foreach ele está imprimindo toda vez que não encontra
-function buscarCachoro() {
+function buscarCachorro() {
   let nome = prompt('Informe o nome do cachorro que deseja buscar').toLowerCase();
   cachorros.forEach(cachorro => {
     if(cachorro.nome == nome) {
-      console.log(cachorro);
-    } else {
-      console.log(`Cachorro ${nome} não encontrado.`);
+      return console.log(cachorro);
     }
   });
 }
