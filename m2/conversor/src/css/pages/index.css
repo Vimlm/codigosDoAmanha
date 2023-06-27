@@ -1,3 +1,4 @@
+/* Estilos de textos e magin para o h1 */
 h1 {
   text-align: center;
   margin-bottom: 40px;
@@ -5,6 +6,7 @@ h1 {
   text-transform: uppercase;
 }
 
+/* Estilos para o formulário, como cor de fundo, posicionamento e arredondamento dos cantos */
 .form {
   display: flex;
   flex-direction: column;
@@ -13,16 +15,19 @@ h1 {
   padding: 60px 100px 80px 100px;
 }
 
+/* espaço entre cada elemento do formulário */
 .form form div {
   margin-bottom: 20px;
 }
 
+/* imitação de estilo de input para o form da div com classe result */
 .result {
   border: 1px solid black;
   border-radius: 3px;
   height: 20px;
 }
 
+/* estilos para o botão */
 .button {
   width: 100%;
   background: #4608AD;
@@ -35,6 +40,7 @@ h1 {
   transition: .3s;
 }
 
+/* hover básico com mudança leve de coloração */
 .button:hover {
   background: #4F07C7;
 }

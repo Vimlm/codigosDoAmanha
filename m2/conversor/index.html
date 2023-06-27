@@ -2,18 +2,24 @@
 <html lang="pt-BR">
 
 <head>
+  <!-- head página, link css, script com defer para carregamento asyncrono-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/css/style.css">
   <script src="src/scripts/script.js" defer></script>
-  <title>Conversor</title>
+  <title>Conversor de Unidades</title>
 </head>
 
 <body>
-  <section class="container">
+  <!--body segurando todo conteúdo-->
+  <!--main com classe container que irá segurar todo nosso conteúdo-->
+  <main class="container">
+    <!-- div com classe formulário para conseguir definir o tamanho desse formulário pintar o bg e alinhar ele com o texto -->
     <div class="form">
       <h1>Conversor de unidades</h1>
+      <!-- formulário -->
       <form action="">
+        <!-- categorias que guarda todas o começo das informações com o select>option -->
         <div class="category">
           <label for="">Categoria</label>
           <select id="category">
@@ -24,33 +30,39 @@
           </select>
         </div>
         
-        <label for="entry">Entrada</label>
+        <!-- entrada, agrupados pela div para guardar label e select, população vazia pois será feita de forma dinâmica -->
         <div>
+          <label for="entry">Entrada</label>
           <select id="entry">
             <option value="">---</option>
           </select>
         </div>
 
-        <label for="exit">Saída</label>
+        <!-- saida, agrupados pela div para guardar label e select, população vazia pois será feita de forma dinâmica -->
         <div>
+          <label for="exit">Saída</label>
           <select id="exit">
             <option value="">---</option>
           </select>
         </div>
 
+        <!-- valor a ser digitado pelo usuário -->
         <div class="valor">
           <label for="valueInput">Digite o valor</label>
           <input value="" type="text" id="valueInput" required>
         </div>
 
+        <!-- resultado da conversão, feito com uma div imitando estilos de input para evitar que usuário coloque informações nesse campo. -->
         <label for="result">Resultado</label>
         <div class="result">
           <p></p>
         </div>
+        
+        <!-- botao para conversao -->
         <button id="convert" class="button" type="submit">Converter</button>
     </div>
     </form>
-  </section>
+  </main>
 </body>
 
 </html>

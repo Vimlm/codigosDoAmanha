@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: monospace;
+  max-width: 420px;
+  margin: 100px auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+select,
+input {
+  width: 100%;
+}
+
+input:focus {
+  background: #fff;
+}

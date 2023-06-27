@@ -1,0 +1,29 @@
+/* Reset gerais e configurações gerais para página. Como background, tamanho do container, tamanhos dos inputs, focus etc. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #000;
+  font-family: monospace;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+select,
+input {
+  width: 100%;
+}
+
+input:focus {
+  background: #fff;
+}

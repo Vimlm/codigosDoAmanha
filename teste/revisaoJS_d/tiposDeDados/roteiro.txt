@@ -1,0 +1,10 @@
+/*
+• Tipos da dados ✓
+• Concatenação e Tamplate String ✓
+• Variáveis ✓
+• Operadores aritiméticos e Lógicos (sintaxes mais sucintas) ✓
+• Condicionais (if, else if e else) ✓
+• Loops (for, while) ✓
+• Funções e os seus tipos ✓
+• DOM ++
+*/

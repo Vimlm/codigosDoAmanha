@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.grid {
+  background: tomato;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+  padding: 20px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.box4 {
+  grid-column: 1 / -1;
+}
