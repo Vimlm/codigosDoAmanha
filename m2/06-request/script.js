@@ -66,16 +66,19 @@ reqPokemons.open('GET', `https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0
 let pokemons;
 
 //Transformar a requisição em async e 
-reqPokemons.onload = () => {
+reqPokemons.onreadystatechange = readyState => {
+  console.log(readyState.currentTarget.readyState === 4)
+  // console.log(reqPokemons.status);
   if(reqPokemons.status === 200) {
-    res = JSON.parse(reqPokemons.responseText)
-    // console.log(res.results);
-    pokemons = res.results;
-    pokemons.forEach(pokemon => {
-      if(pokemon.name === 'axew') {
-        console.log(pokemon.name, pokemon)
-      }
-    });
+    // console.log(reqPokemons.responseText);
+    res = JSON.parse(reqPokemons.response)
+    // console.log(res);
+    // pokemons = res.results;
+    // pokemons.forEach(pokemon => {
+    //   if(pokemon.name === 'ditto') {
+    //     console.log(pokemon.name, pokemon)
+    //   }
+    // });
   }
 }
 

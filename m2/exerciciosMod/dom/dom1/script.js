@@ -10,7 +10,7 @@ Crie um novo elemento com o método document.createElement();
 Adicione o texto desejado no novo elemento com o método textContent;
 Adicione o novo elemento na lista com o método appendChild(). */
 
-const lista = document.querySelector("ul")
+// const list = document.querySelector("ul")
 // const novoElemento = document.createElement('li');
 // novoElemento.innerText = 'Novo Item'
 // lista.appendChild(novoElemento)
@@ -31,6 +31,24 @@ Altere o texto do elemento com a propriedade textContent. */
 
 const elemento = document.querySelector('li');
 
-const pai = elemento.parentNode;
+const dad = elemento.parentNode;
 
-pai.removeChild();
+dad.removeChild(elemento);
+
+// const listChildren = dad.children;
+
+// const lastBOChildren = listChildren[listChildren.length - 2];
+
+// lastBOChildren.remove();
+
+
+
+/* Altere a cor de fundo do botão para vermelho.
+
+Como Fazer:
+
+Acesse o elemento do botão com o método document.querySelector();
+Altere a propriedade backgroundColor do estilo do elemento. */
+
+const botao = document.querySelector('button');
+botao.style.background = 'red';
