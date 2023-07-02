@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 200px;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  border: none;
+}
