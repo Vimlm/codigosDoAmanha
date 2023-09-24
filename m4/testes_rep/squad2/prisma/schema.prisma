@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Endereco {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  cep String
+  rua String
+  numero String
+  bairro String
+  cidade String
+  complento String
+}

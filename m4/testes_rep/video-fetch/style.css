@@ -1,0 +1,7 @@
+body {
+  color: orangered;
+  background: cyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

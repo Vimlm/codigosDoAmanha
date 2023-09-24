@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  mysql-server-db: 
+    container_name: mysql_compose
+    image: mysql_populado
+    ports: 
+      - "3309:3306"
