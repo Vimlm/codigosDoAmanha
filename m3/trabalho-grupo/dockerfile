@@ -1,0 +1,12 @@
+FROM mysql:latest
+
+ARG ROOT_PASSWORD=root
+ENV MYSQL_ROOT_PASSWORD=${ROOT_PASSWORD}
+
+ENV MYSQL_DATABASE=resilia
+
+COPY ./scripts/resilia-sql-docker.sql /docker-entrypoint-initdb.d/resilia-sql-docker.sql
+
+EXPOSE 3306
+
+CMD ["mysqld"]

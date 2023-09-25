@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  mysql-server-db: 
+    container_name: resilia
+    image: bd_resilia
+    ports: 
+      - "3309:3306"
