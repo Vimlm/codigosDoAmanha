@@ -1,0 +1,24 @@
+* {
+  background: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.paragrafos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paragrafos p {
+  padding: 20px;
+}
