@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button'
 
 const Form = () => {
   return (
@@ -12,7 +13,7 @@ const Form = () => {
       <label htmlFor="mensagem">Mensagem</label>
       <textarea name="" id="" cols="30" rows="10"></textarea>
 
-      <button>Enviar</button>
+      <Button bg="tomato" texto="Enviar"/>
     </form>
 
   )
