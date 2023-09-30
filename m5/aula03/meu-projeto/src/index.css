@@ -31,3 +31,9 @@ a {
   display: flex;
   gap: 1.2rem;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 800px;
+}
