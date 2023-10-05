@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(202deg, rgba(0,0,0,1) 0%, rgba(15,6,49,0.9545217803030303) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.bg-card {
+  width: 400px;
+  height: 400px;
+  background: #e7e;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-border {
+  text-align: center;
+  width: 370px;
+  height: 370px;
+  background: #cfb037;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+img {
+  margin-top: 40px;
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.bg-border .nome {
+  color: #111;
+  font-size: 1.5rem;
+  font-family: 'Young Serif', serif;
+}
+
+.gerarPersonagem {
+  margin-top: 8px;
+  padding: 8px 16px;
+  color: #111;
+}
